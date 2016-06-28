@@ -1,16 +1,17 @@
-﻿using System.Reflection;
-using System.Runtime.CompilerServices;
+﻿using System;
+using System.Reflection;
+using System.Resources;
 using System.Runtime.InteropServices;
 
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("AutoFixture.NUnit2.Addins")]
+[assembly: AssemblyTitle("AutoFakeItEasy")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Ploeh")]
-[assembly: AssemblyProduct("AutoFixture.NUnit2.Addins")]
-[assembly: AssemblyCopyright("Copyright © Ploeh 2013")]
+[assembly: AssemblyProduct("AutoFixture")]
+[assembly: AssemblyCopyright("Copyright © AutoFixture 2016")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -20,7 +21,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("cf3b15a6-22d4-4d94-bb35-8cbe7c7df1bd")]
+[assembly: Guid("473476c5-6b65-49ab-9a21-e17abfab1178")]
 
 // Version information for an assembly consists of the following four values:
 //
@@ -34,3 +35,6 @@ using System.Runtime.InteropServices;
 // [assembly: AssemblyVersion("1.0.*")]
 [assembly: AssemblyVersion("3.48.0.0")]
 [assembly: AssemblyFileVersion("3.48.0.0")]
+
+[assembly: CLSCompliant(true)]
+[assembly: NeutralResourcesLanguage("en")]
