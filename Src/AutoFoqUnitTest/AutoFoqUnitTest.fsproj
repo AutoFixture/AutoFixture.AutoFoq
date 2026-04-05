@@ -5,7 +5,7 @@
   <Import Project="..\..\Common.Test.xUnit.props" />
 
   <PropertyGroup>
-    <TargetFrameworks>net462;net48;net5.0;net6.0</TargetFrameworks>
+    <TargetFrameworks>net462;net48;net6.0</TargetFrameworks>
     <AssemblyTitle>AutoFixture.AutoFoq.UnitTest</AssemblyTitle>
     <AssemblyName>AutoFixture.AutoFoq.UnitTest</AssemblyName>
     <RootNamespace>AutoFixture.AutoFoq.UnitTest</RootNamespace>
@@ -28,7 +28,6 @@
         <PackageReference Include="FSharp.Core" Version="[4.7.2]" PrivateAssets="All" />
         <PackageReference Include="Foq" Version="1.8.0" />
 
-        <ProjectReference Include="..\AutoFixture\AutoFixture.csproj" />
         <ProjectReference Include="..\AutoFoq\AutoFoq.fsproj" />
         <ProjectReference Include="..\TestTypeFoundation\TestTypeFoundation.csproj" />
       </ItemGroup>
@@ -39,7 +38,6 @@
         <PackageReference Include="FSharp.Core" Version="[5.0.2]" PrivateAssets="All" />
         <PackageReference Include="Foq" Version="1.8.0" SkipGetTargetFrameworkProperties="true" SetTargetFramework="TargetFramework=netstandard2.0" />
 
-        <ProjectReference Include="..\AutoFixture\AutoFixture.csproj" SkipGetTargetFrameworkProperties="true" SetTargetFramework="TargetFramework=netstandard2.0" />
         <ProjectReference Include="..\AutoFoq\AutoFoq.fsproj" SkipGetTargetFrameworkProperties="true" SetTargetFramework="TargetFramework=netstandard2.0" />
         <ProjectReference Include="..\TestTypeFoundation\TestTypeFoundation.csproj" SkipGetTargetFrameworkProperties="true" SetTargetFramework="TargetFramework=netstandard2.0" />
       </ItemGroup>
@@ -50,7 +48,6 @@
         <PackageReference Include="FSharp.Core" Version="[5.0.2]" PrivateAssets="All" />
         <PackageReference Include="Foq" Version="1.8.0" />
 
-        <ProjectReference Include="..\AutoFixture\AutoFixture.csproj" />
         <ProjectReference Include="..\AutoFoq\AutoFoq.fsproj" />
         <ProjectReference Include="..\TestTypeFoundation\TestTypeFoundation.csproj" />
       </ItemGroup>
